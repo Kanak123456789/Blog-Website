@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Website Landing Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+<header>
+<h1>Blog Website</h1>
+<nav>
+<ul>
+<li><a href="#">Blogs</a></li>
+<li><a href="#">News Feeds</a></li>
+<li><a href="#">Upcoming Events</a></li>
+<li><a href="#">Jobs</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="blogs">
+<h2>Blogs</h2>
+<ul>
+<li><a href="#">Blog Segment 1</a></li>
+<li><a href="#">Blog Segment 2</a></li>
+<li><a href="#">Blog Segment 3</a></li>
+</ul>
+</section>
+<section id="news-feeds">
+<h2>News Feeds</h2>
+<ul>
+<li><a href="#">News Feed 1</a></li>
+<li><a href="#">News Feed 2</a></li>
+<li><a href="#">News Feed 3</a></li>
+</ul>
+</section>
+<section id="upcoming-events">
+<h2>Upcoming Events</h2>
+<ul>
+<li><a href="#">Upcoming Event 1</a></li>
+<li><a href="#">Upcoming Event 2</a></li>
+<li><a href="#">Upcoming Event 3</a></li>
+</ul>
+</section>
+<section id="jobs">
+<h2>Jobs</h2>
+<ul>
+<li><a href="#">Job 1</a></li>
+<li><a href="#">Job 2</a></li>
+<li><a href="#">Job 3</a></li>
+</ul>
+</section>
+</main>
+<footer>
+ 
+</footer>
+<script>
+    // This code will add a click listener to the "Blogs" navigation link,
+// and will open the "blogs" section of the landing page when the link is clicked.
+document.querySelector("#blogs").addEventListener("click", function() {
+  document.getElementById("blogs").style.display = "block";
+  document.getElementById("news-feeds").style.display = "none";
+  document.getElementById("upcoming-events").style.display = "none";
+  document.getElementById("jobs").style.display = "none";
+});
+
+// This code will add a click listener to the "News Feeds" navigation link,
+// and will open the "news-feeds" section of the landing page when the link is clicked.
+document.querySelector("#news-feeds").addEventListener("click", function() {
+  document.getElementById("blogs").style.display = "none";
+  document.getElementById("news-feeds").style.display = "block";
+  document.getElementById("upcoming-events").style.display = "none";
+  document.getElementById("jobs").style.display = "none";
+});
+
+// This code will add a click listener to the "Upcoming Events" navigation link,
+// and will open the "upcoming-events" section of the
+
+</script>
+</body>
+</html>

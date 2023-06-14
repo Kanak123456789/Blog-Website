@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+.bg{
+     
+        background-image: url(https://media.istockphoto.com/id/1278436436/photo/top-view-of-a-blue-desktop-with-copy-space.jpg?s=170667a&w=0&k=20&c=u80P07lXI6pS-wol4iNtxrgQciY05uqcnqnj5Q5TQcg=);
+         
+        background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    
+}
